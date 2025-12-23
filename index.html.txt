@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>CAPTURED MOMENTS</h1>
+        <p>Professional Photography Portfolio</p>
+    </header>
+
+    <main class="gallery">
+        <div class="gallery-item">
+            <img src="Images/pic1.jpg" alt="Nature Photography">
+            <div class="caption">Nature</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Images/pic2.jpg" alt="Portrait Photography">
+            <div class="caption">Portraits</div>
+        </div>
+
+        <div class="gallery-item">
+            <video autoplay muted loop playsinline>
+                <source src="Video/video_02.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="caption">Cinematography</div>
+        </div>
+
+        </main>
+
+    <footer>
+        <p>&copy; 2025 Portfolio. Hosted on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
